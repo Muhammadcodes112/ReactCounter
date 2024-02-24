@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  text-align: center;
+  color: #fff;
+  transition: .5s ease;
+}
+
+button {
+  background-color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+img {
+  transition: .2s ease;
+}
+
+img:active {
+  scale: 0.9;
+}
+
+.dark {
+  background-color: black;
+  color: pink;
+}
+
+.light {
+  background-color: pink;
+  color: black;
+}
+
+.darkmode {
+  background-color: #fff;
+  width: fit-content;
+  color: black;
+  border-radius: 50px;
+  padding: 5px;
+ 
+}
